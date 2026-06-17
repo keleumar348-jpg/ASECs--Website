@@ -362,3 +362,42 @@ h3 {
 }
 /* MEMBER 04 CONTRIBUTION END */
 
+/* MEMBER 05 CONTRIBUTION START - Value card grid styling (CSS) */
+.value-grid,
+.committee-grid,
+.resource-grid,
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.value-grid article,
+.committee-grid article,
+.resource-grid article,
+.tab-panel article,
+.executive-card,
+.event-card,
+.membership-form,
+.contact-panel,
+.gallery-grid figure {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--white);
+}
+
+.value-grid article,
+.committee-grid article,
+.resource-grid article {
+  padding: 22px;
+}
+
+.value-grid p,
+.committee-grid p,
+.resource-grid p {
+  color: var(--muted);
+}
+/* MEMBER 05 CONTRIBUTION END */
+
+
+
