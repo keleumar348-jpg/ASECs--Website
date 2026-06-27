@@ -398,6 +398,78 @@ h3 {
   color: var(--muted);
 }
 /* MEMBER 05 CONTRIBUTION END */
+* MEMBER 10 CONTRIBUTION START - Executive leadership cards (CSS) */
+.executive-grid {
+  display: grid;
+  grid-template-columns: 1.2fr repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
 
+.executive-card {
+  min-height: 220px;
+  padding: 22px;
+}
+
+.executive-card.featured {
+  color: var(--white);
+  background: var(--green-dark);
+}
+
+.executive-card.featured p {
+  color: #dff7e4;
+}
+
+.executive-card p {
+  color: var(--muted);
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 18px;
+  color: var(--white);
+  background: var(--green);
+  border-radius: 50%;
+  font-weight: 800;
+}
+/* MEMBER 10 CONTRIBUTION END */* MEMBER 10 CONTRIBUTION START - Executive leadership cards (CSS)  cis/ste/22/1071*/
+.executive-grid {
+  display: grid;
+  grid-template-columns: 1.2fr repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.executive-card {
+  min-height: 220px;
+  padding: 22px;
+}
+
+.executive-card.featured {
+  color: var(--white);
+  background: var(--green-dark);
+}
+
+.executive-card.featured p {
+  color: #dff7e4;
+}
+
+.executive-card p {
+  color: var(--muted);
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 18px;
+  color: var(--white);
+  background: var(--green);
+  border-radius: 50%;
+  font-weight: 800;
+}
+/* MEMBER 10 CONTRIBUTION END */
 
 
